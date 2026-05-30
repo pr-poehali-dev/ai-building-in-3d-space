@@ -1,0 +1,1 @@
+{"tests": [{"name": "Get knowledge with blueprint", "method": "GET", "path": "/", "expectedStatus": 200, "expectedBody": {"success": "boolean", "strategy": "string", "blueprint": "object"}, "bodyMatcher": "partial"}, {"name": "Get tower knowledge", "method": "GET", "path": "/?topic=tower", "expectedStatus": 200, "expectedBody": {"topic": "tower"}, "bodyMatcher": "partial"}]}
